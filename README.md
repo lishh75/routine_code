@@ -20,9 +20,9 @@ cat id_rsa.pub
 # git common code 
 git status
 
-git add 
+git add xxx file (for modified file) 
 
-git commit -m "xx"
+git commit -m "xx" (submit modified information)
 
 git push
 
