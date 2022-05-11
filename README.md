@@ -8,10 +8,12 @@ cd routine_code
 
 pip install . --use-feature=in-tree-build
 
-or for a specific path (e.g. nbodykit-env)
+or for a specific path (e.g. nbodykit-env):
 
 pip install . --use-feature=in-tree-build --target=/home/lishaohong/anaconda3/envs/nbodykit-env/lib/python3.8/site-packages/
 
+or for update:
+pip install . --use-feature=in-tree-build --target=/home/lishaohong/anaconda3/envs/nbodykit-env/lib/python3.8/site-packages/ --upgrade
 
 
 # Git configure
