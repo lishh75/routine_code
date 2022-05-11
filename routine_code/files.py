@@ -1,5 +1,10 @@
 import os
-def files(path):
+def files(path,rt=False):
+    '''
+	list file's names or return its
+    '''
     files=os.listdir(path)
-    for i in files:
-        print(i)
+    if not rt:
+    	for i in files:
+        	print(i)
+    else: return files
